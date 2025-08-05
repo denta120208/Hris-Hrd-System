@@ -1,0 +1,33 @@
+<?php
+
+namespace App\Http\Requests\Posting;
+
+use App\Http\Requests\Request;
+
+class StorePPRequest extends Request
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return false;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        $rules = array();
+        foreach($this->request->get('tenant') as $key => $val)
+        {
+          $rules['tenant.'.$key] = 'required|max:10';
+        }
+        return $rules;
+    }
+}

@@ -1,0 +1,1326 @@
+Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Error connecting to the SQL Server database.Array
+(
+    [0] => UM-G10-031/007
+    [debtor_acct] => UM-G10-031/007
+    [1] => UM-G10-031          
+    [lot_no] => UM-G10-031          
+    [2] => 47001390.909090
+    [trx_amt] => 47001390.909090
+    [3] => 940.027818181800
+    [amt] => 940.027818181800
+    [4] => UMM
+    [project_no] => UMM
+    [5] => UMM/BM/18/01/00237  
+    [doc_no] => UMM/BM/18/01/00237  
+    [6] => Jan 31 2018 12:00:00:000AM
+    [doc_date] => Jan 31 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => FP-AH/03-011
+    [debtor_acct] => FP-AH/03-011
+    [1] => FP-AH/03-011        
+    [lot_no] => FP-AH/03-011        
+    [2] => 90909.090909
+    [trx_amt] => 90909.090909
+    [3] => 1.818181818180
+    [amt] => 1.818181818180
+    [4] => FPD
+    [project_no] => FPD
+    [5] => FPD/BM/18/02/00270  
+    [doc_no] => FPD/BM/18/02/00270  
+    [6] => Feb 21 2018 12:00:00:000AM
+    [doc_date] => Feb 21 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => KT-RM/30-018
+    [debtor_acct] => KT-RM/30-018
+    [1] => KT-RM/30-018        
+    [lot_no] => KT-RM/30-018        
+    [2] => 24545454.545453
+    [trx_amt] => 24545454.545453
+    [3] => 490.909090909060
+    [amt] => 490.909090909060
+    [4] => KTM
+    [project_no] => KTM
+    [5] => KTM/BM/18/02/00124  
+    [doc_no] => KTM/BM/18/02/00124  
+    [6] => Feb 25 2018 12:00:00:000AM
+    [doc_date] => Feb 25 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => KT-RM/30-035
+    [debtor_acct] => KT-RM/30-035
+    [1] => KT-RM/30-035        
+    [lot_no] => KT-RM/30-035        
+    [2] => 10909090.909090
+    [trx_amt] => 10909090.909090
+    [3] => 218.181818181800
+    [amt] => 218.181818181800
+    [4] => KTM
+    [project_no] => KTM
+    [5] => KTM/BM/18/02/00127  
+    [doc_no] => KTM/BM/18/02/00127  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => KT-RM/32-141
+    [debtor_acct] => KT-RM/32-141
+    [1] => KT-RM/32-141        
+    [lot_no] => KT-RM/32-141        
+    [2] => 19745454.545453
+    [trx_amt] => 19745454.545453
+    [3] => 394.909090909060
+    [amt] => 394.909090909060
+    [4] => KTM
+    [project_no] => KTM
+    [5] => KTM/BM/18/02/00140  
+    [doc_no] => KTM/BM/18/02/00140  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => PR-F/004-020
+    [debtor_acct] => PR-F/004-020
+    [1] => PR-F/004-020        
+    [lot_no] => PR-F/004-020        
+    [2] => 164687058.181818
+    [trx_amt] => 164687058.181818
+    [3] => 3293.741163636360
+    [amt] => 3293.741163636360
+    [4] => PRM
+    [project_no] => PRM
+    [5] => PRM/BM/18/02/00072  
+    [doc_no] => PRM/BM/18/02/00072  
+    [6] => Feb 23 2018 12:00:00:000AM
+    [doc_date] => Feb 23 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => PR-F/005-015
+    [debtor_acct] => PR-F/005-015
+    [1] => PR-F/005-015        
+    [lot_no] => PR-F/005-015        
+    [2] => 24473077.272727
+    [trx_amt] => 24473077.272727
+    [3] => 489.461545454540
+    [amt] => 489.461545454540
+    [4] => PRM
+    [project_no] => PRM
+    [5] => PRM/BM/18/02/00073  
+    [doc_no] => PRM/BM/18/02/00073  
+    [6] => Feb 23 2018 12:00:00:000AM
+    [doc_date] => Feb 23 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => PR-I/001-005/001
+    [debtor_acct] => PR-I/001-005/001
+    [1] => PR-I/001-005        
+    [lot_no] => PR-I/001-005        
+    [2] => 41739130.909090
+    [trx_amt] => 41739130.909090
+    [3] => 834.782618181800
+    [amt] => 834.782618181800
+    [4] => PRM
+    [project_no] => PRM
+    [5] => PRM/BM/18/02/00071  
+    [doc_no] => PRM/BM/18/02/00071  
+    [6] => Feb 22 2018 12:00:00:000AM
+    [doc_date] => Feb 22 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 909090.909090
+    [trx_amt] => 909090.909090
+    [3] => 18.181818181800
+    [amt] => 18.181818181800
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00157  
+    [doc_no] => TCL/BM/18/02/00157  
+    [6] => Feb 27 2018 12:00:00:000AM
+    [doc_date] => Feb 27 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => TC-FH/09-006
+    [debtor_acct] => TC-FH/09-006
+    [1] => TC-FH/09-006        
+    [lot_no] => TC-FH/09-006        
+    [2] => 7772727.272726
+    [trx_amt] => 7772727.272726
+    [3] => 155.454545454520
+    [amt] => 155.454545454520
+    [4] => TCL
+    [project_no] => TCL
+    [5] => TCL/BM/18/02/00156  
+    [doc_no] => TCL/BM/18/02/00156  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => UM-C/005-019/004
+    [debtor_acct] => UM-C/005-019/004
+    [1] => UM-C/005-019        
+    [lot_no] => UM-C/005-019        
+    [2] => 9090909.090909
+    [trx_amt] => 9090909.090909
+    [3] => 181.818181818180
+    [amt] => 181.818181818180
+    [4] => UMM
+    [project_no] => UMM
+    [5] => UMM/BM/18/02/00203  
+    [doc_no] => UMM/BM/18/02/00203  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => UM-G/002-011/001
+    [debtor_acct] => UM-G/002-011/001
+    [1] => UM-G/002-011        
+    [lot_no] => UM-G/002-011        
+    [2] => 11209401.818181
+    [trx_amt] => 11209401.818181
+    [3] => 224.188036363620
+    [amt] => 224.188036363620
+    [4] => UMM
+    [project_no] => UMM
+    [5] => UMM/BM/18/02/00202  
+    [doc_no] => UMM/BM/18/02/00202  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => UM-G/002-012/002
+    [debtor_acct] => UM-G/002-012/002
+    [1] => UM-G/002-012        
+    [lot_no] => UM-G/002-012        
+    [2] => 932272727.272727
+    [trx_amt] => 932272727.272727
+    [3] => 18645.454545454540
+    [amt] => 18645.454545454540
+    [4] => UMM
+    [project_no] => UMM
+    [5] => UMM/BM/18/02/00205  
+    [doc_no] => UMM/BM/18/02/00205  
+    [6] => Feb 27 2018 12:00:00:000AM
+    [doc_date] => Feb 27 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => UM-G/002-023
+    [debtor_acct] => UM-G/002-023
+    [1] => UM-G/002-023        
+    [lot_no] => UM-G/002-023        
+    [2] => 17620250.000000
+    [trx_amt] => 17620250.000000
+    [3] => 352.405000000000
+    [amt] => 352.405000000000
+    [4] => UMM
+    [project_no] => UMM
+    [5] => UMM/BM/18/02/00206  
+    [doc_no] => UMM/BM/18/02/00206  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => UM-L/005-002
+    [debtor_acct] => UM-L/005-002
+    [1] => UM-L/005-002        
+    [lot_no] => UM-L/005-002        
+    [2] => 90909090.909090
+    [trx_amt] => 90909090.909090
+    [3] => 1818.181818181800
+    [amt] => 1818.181818181800
+    [4] => UMM
+    [project_no] => UMM
+    [5] => UMM/BM/18/02/00198  
+    [doc_no] => UMM/BM/18/02/00198  
+    [6] => Feb 26 2018 12:00:00:000AM
+    [doc_date] => Feb 26 2018 12:00:00:000AM
+)
+Array
+(
+    [0] => UM-TR.I-001
+    [debtor_acct] => UM-TR.I-001
+    [1] => UM-TR.I-001         
+    [lot_no] => UM-TR.I-001         
+    [2] => 138800000.000000
+    [trx_amt] => 138800000.000000
+    [3] => 2776.000000000000
+    [amt] => 2776.000000000000
+    [4] => UMM
+    [project_no] => UMM
+    [5] => UMM/BM/18/02/00204  
+    [doc_no] => UMM/BM/18/02/00204  
+    [6] => Feb 27 2018 12:00:00:000AM
+    [doc_date] => Feb 27 2018 12:00:00:000AM
+)
