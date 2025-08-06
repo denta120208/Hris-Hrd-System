@@ -158,8 +158,8 @@ class EmployeeController extends Controller {
         foreach ($docFields as $field => $folder) {
             if ($request->hasFile($field)) {
                 $file = $request->file($field);
-                $filename = $request->emp_number . '_' . $field . '.' . $file->getClientOriginalExtension();
-                $path = $folder . '/' . $filename;
+                $originalName = $file->getClientOriginalName(); //Namafile asli
+                $path = $folder . '/' . $originalName;
                 // Pastikan folder ada
                 if (!Storage::disk('ftp')->exists($folder)) {
                     Storage::disk('ftp')->makeDirectory($folder);

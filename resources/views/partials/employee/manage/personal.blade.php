@@ -321,7 +321,7 @@ function date_formated($date){
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="form-group">
-            <label for="back_account_loc">Cabang Bankzzz</label>
+            <label for="back_account_loc">Cabang Bank</label>
             <input class="form-control" type="text" name="back_account_loc" id="back_account_loc" value="{{ $emp->back_account_loc }}" readonly="readonly" />
         </div>
     </div>
