@@ -380,7 +380,7 @@ function date_formated($date){
             <label for="bank_account_name">Bank Account Name</label>
             <input class="form-control" type="text" name="bank_account_name" id="bank_account_name" 
                    value="{{ $emp->bank_account_name && $emp->bank_account_name != '0' ? $emp->bank_account_name : '' }}" 
-                   placeholder="Masukkan nama pemilik rekening" readonly="readonly" />
+                   placeholder="Masukkan Nama Pemilik Rekening" readonly="readonly" />
         </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
