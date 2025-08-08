@@ -550,9 +550,8 @@ class EmployeeController extends Controller{
     
     public function deleteEducation($id){
         $now = date("Y-m-d H:i:s");
-        
-        // Soft delete - change is_delete from 0 to 1
-        $this->edu->where('id',$id)->update(['is_delete' => 1]);
+        // Hard delete karena tabel tidak memiliki kolom is_delete
+        $this->edu->where('id', $id)->delete();
         
         \DB::table('log_activity')->insert([
             'action' => 'update data employee',
@@ -598,9 +597,8 @@ class EmployeeController extends Controller{
     
     public function deleteWork($id){
         $now = date("Y-m-d H:i:s");
-        
-        // Soft delete - change is_delete from 0 to 1
-        $this->qlt->where('id',$id)->update(['is_delete' => 1]);
+        // Hard delete karena tabel tidak memiliki kolom is_delete
+        $this->qlt->where('id', $id)->delete();
         
         \DB::table('log_activity')->insert([
             'action' => 'update data employee',
@@ -667,6 +665,25 @@ class EmployeeController extends Controller{
             'table_activity' => 'employee'
         ]);
         
+        return redirect('personal');
+    }
+
+    public function deleteTrain($id){
+        $now = date("Y-m-d H:i:s");
+        // Hard delete karena tabel tidak memiliki kolom is_delete
+        $this->train->where('id', $id)->delete();
+
+        \DB::table('log_activity')->insert([
+            'action' => 'update data employee',
+            'module' => 'Master',
+            'sub_module' => 'Personal',
+            'modified_by' => Session::get('name'),
+            'description' => 'delete training id '.$id,
+            'created_at' => $now,
+            'updated_at' => $now,
+            'table_activity' => 'employee'
+        ]);
+
         return redirect('personal');
     }
 

@@ -82,10 +82,14 @@ Route::get('/personal/qualifications/{id}', ['as' => 'personal.qualifications', 
 Route::get('/personal/membership/{id}', ['as' => 'personal.memberships', 'uses' => 'Master\EmployeeController@getMemberships']);
 Route::get('/view/contract/{id}', ['as' => 'view.contract', 'uses' => 'Master\EmployeeController@viewContract']);
 Route::post('/personal/setEducation', ['as' => 'personal.setEducation', 'uses' => 'Master\EmployeeController@setEducation']);
+// Tambahan route untuk kebutuhan Qualifications (Personal)
+Route::get('/personal/getEducation', ['as' => 'personal.getEducation', 'uses' => 'Master\EmployeeController@getEducation']);
+Route::post('/personal/updateEducation', ['as' => 'personal.updateEducation', 'uses' => 'Master\EmployeeController@updateEducation']);
 Route::get('/personal/deleteEducation/{id}', ['as' => 'personal.deleteEducation', 'uses' => 'Master\EmployeeController@deleteEducation']);
 Route::post('/personal/setWork', ['as' => 'personal.setWork', 'uses' => 'Master\EmployeeController@setWork']);
 Route::get('/personal/deleteWork/{id}', ['as' => 'personal.deleteWork', 'uses' => 'Master\EmployeeController@deleteWork']);
 Route::post('/personal/setTrain', ['as' => 'personal.setTrain', 'uses' => 'Master\EmployeeController@setTrain']);
+Route::get('/personal/deleteTrain/{id}', ['as' => 'personal.deleteTrain', 'uses' => 'Master\EmployeeController@deleteTrain']);
 Route::get('/personal/reward/{id}', ['as' => 'personal.reward', 'uses' => 'Master\EmployeeController@getReward']);
 // End Employee
 
