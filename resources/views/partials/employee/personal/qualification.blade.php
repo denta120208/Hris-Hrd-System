@@ -27,6 +27,8 @@
             var id = $(this).data('id');
             $('#addEdu').show();
             $('#editDtlEdu').hide();
+            $('#eduDtlSave').show();
+            $('#eduDtlCancel').show();
             
             // Get education data
             $.ajax({
@@ -94,6 +96,10 @@
             $('#editDtlTrain').hide();
             $('#trainDtlSave').show();
             $('#trainDtlCancel').show();
+            
+            // Reset form for adding new data
+            $('#addTrain')[0].reset();
+            $('#idTrain').val('');
         });
         $('#trainDtlCancel').click(function(){
             $('#addTrain').hide();
@@ -105,12 +111,7 @@
             $('form#addTrain').submit();
         });
         
-        // Tambah baru Work
-        $(document).on('click', '#addNewWork', function(){
-            $('#addWork').show();
-            $('#workDtlSave').show();
-            $('#workDtlCancel').show();
-        });
+
         
         // Edit item Work (prefill form, tetap create baru saat submit)
         $(document).on('click', '.editItemButton.work', function(e){
@@ -125,17 +126,7 @@
             $('#eexp_comments').val($(this).data('comments'));
         });
         
-        // Tambah baru Training
-        $(document).on('click', '#addNewTrain', function(){
-            $('#idTrain').val('');
-            $('#train_name').val('');
-            $('#license_no').val('');
-            $('#license_issued_date').val('');
-            $('#license_expiry_date').val('');
-            $('#addTrain').show();
-            $('#trainDtlSave').show();
-            $('#trainDtlCancel').show();
-        });
+
         
         // Edit item Training (prefill dan set id untuk update)
         $(document).on('click', '.editItemButton.train', function(e){
@@ -216,7 +207,7 @@
                     <input class="form-control" type="text" name="end_date" id="end_date" readonly="readonly" />
                 </div>
             </div>
-            <input type="submit" class="btn btn-primary" value="Save">
+            <input type="submit" class="btn btn-primary" id="eduDtlSave" value="Save">
             <input type="reset" class="btn btn-danger" id="eduDtlCancel" value="Cancel">
         </form>
         <h4>Education</h4>
@@ -331,8 +322,7 @@
                 @endif
             </tbody>
         </table>
-        <button id="addNewWork" class="btn btn-primary">Add New</button>
-        <button id="editDtlWork" class="btn btn-success">Edit</button>
+        <button id="editDtlWork" class="btn btn-success">Add New</button>
     </div>
 </fieldset>
     <div style="margin-top: 25px;"></div>
@@ -345,18 +335,18 @@
             <input class="form-control" type="text" name="train_name" id="train_name" />
         </div>
         <div class="form-group">
-            <label for="license_no">Sertificate No</label>
+            <label for="license_no">License No</label>
             <input class="form-control" type="text" name="license_no" id="license_no" />
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="form-group">
-                <label for="license_issued_date">Sertificate Date</label>
+                <label for="license_issued_date">Issued Date</label>
                 <input class="form-control" type="text" name="license_issued_date" id="license_issued_date" readonly="readonly" />
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="form-group">
-                <label for="license_expiry_date">Expired Date</label>
+                <label for="license_expiry_date">Expiry Date</label>
                 <input class="form-control" type="text" name="license_expiry_date" id="license_expiry_date" readonly="readonly" />
             </div>
         </div>
@@ -370,9 +360,9 @@
             <tr>
                 <th>No</th>
                 <th>Training Name</th>
-                <th>Sertificate No</th>
-                <th>Sertificate Date</th>
-                <th>Expired Date</th>
+                <th>License No</th>
+                <th>Issued Date</th>
+                <th>Expiry Date</th>
                 <th></th>
             </tr>
             </thead>
@@ -417,8 +407,7 @@
             @endif
             </tbody>
         </table>
-        <button id="addNewTrain" class="btn btn-primary">Add New</button>
-        <button id="editDtlTrain" class="btn btn-success">Edit</button>
+        <button id="editDtlTrain" class="btn btn-success">Add New</button>
     </div>
 </fieldset>
 </div>

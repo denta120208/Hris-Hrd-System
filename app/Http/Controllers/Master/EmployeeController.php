@@ -363,9 +363,9 @@ class EmployeeController extends Controller{
     public function getQualifications($id){
         $now = date("Y-m-d H:i:s");
         $emp = $this->emp->where('emp_number', $id)->first();
-        $quali = $this->qlt->where('emp_number', $id)->orderBy('eexp_seqno')->get();
-        $trains = $this->train->where('emp_number', $id)->get();
-        $edus = $this->edu->where('emp_number', $id)->get();
+        $quali = $this->qlt->where('emp_number', $id)->where('is_delete', 0)->orderBy('eexp_seqno')->get();
+        $trains = $this->train->where('emp_number', $id)->where('is_delete', 0)->get();
+        $edus = $this->edu->where('emp_number', $id)->where('is_delete', 0)->get();
 //        $edus = DB::table('emp_education')
 //                ->join('education', 'emp_education.education_id', '=','education.id')
 //                ->where('emp_number', $id)
@@ -550,8 +550,9 @@ class EmployeeController extends Controller{
     
     public function deleteEducation($id){
         $now = date("Y-m-d H:i:s");
-        // Hard delete karena tabel tidak memiliki kolom is_delete
-        $this->edu->where('id', $id)->delete();
+        
+        // Soft delete - change is_delete from 0 to 1
+        $this->edu->where('id', $id)->update(['is_delete' => 1]);
         
         \DB::table('log_activity')->insert([
             'action' => 'update data employee',
@@ -576,7 +577,6 @@ class EmployeeController extends Controller{
             'eexp_employer' => $request->eexp_employer,
             'eexp_jobtit' => $request->eexp_jobtit,
             'eexp_from_date' => $request->eexp_from_date,
-            'eexp_from_date' => $request->eexp_from_date,
             'eexp_to_date' => $request->eexp_to_date,
             'eexp_comments' => $request->eexp_comments
         ]);
@@ -597,8 +597,9 @@ class EmployeeController extends Controller{
     
     public function deleteWork($id){
         $now = date("Y-m-d H:i:s");
-        // Hard delete karena tabel tidak memiliki kolom is_delete
-        $this->qlt->where('id', $id)->delete();
+        
+        // Soft delete - change is_delete from 0 to 1
+        $this->qlt->where('id', $id)->update(['is_delete' => 1]);
         
         \DB::table('log_activity')->insert([
             'action' => 'update data employee',
@@ -670,8 +671,9 @@ class EmployeeController extends Controller{
 
     public function deleteTrain($id){
         $now = date("Y-m-d H:i:s");
-        // Hard delete karena tabel tidak memiliki kolom is_delete
-        $this->train->where('id', $id)->delete();
+        
+        // Soft delete - change is_delete from 0 to 1
+        $this->train->where('id', $id)->update(['is_delete' => 1]);
 
         \DB::table('log_activity')->insert([
             'action' => 'update data employee',
@@ -732,7 +734,7 @@ class EmployeeController extends Controller{
     }
 
     public function getEducation($id) {
-        $edu = $this->edu->where('id', $id)->first();
+        $edu = $this->edu->where('id', $id)->where('is_delete', 0)->first();
         return response()->json($edu);
     }
 
@@ -769,4 +771,6 @@ class EmployeeController extends Controller{
         ]);
         return redirect('personal')->with('status', 'Education has been updated');
     }
+
+
 }
