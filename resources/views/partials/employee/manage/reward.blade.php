@@ -1,3 +1,14 @@
+<style>
+.rounded-value {
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    padding: 2px 4px;
+    cursor: help;
+}
+.rounded-value:hover {
+    background-color: #e9ecef;
+}
+</style>
 <script type="text/javascript">
     $(document).ready(function(){
         $('#closePromotionModal').on('click', function () {
@@ -156,9 +167,20 @@ function date_formated($date){
     $new_date = date('d-m-Y', strtotime(substr($date, 0, 11)));
     return $new_date;
 }
+
+// Helper function for rounding appraisal values
+function round_appraisal_value($value) {
+    return is_numeric($value) ? round($value, 0) : $value;
+}
+
+// Helper function to check if value was rounded
+function is_value_rounded($original, $rounded) {
+    return is_numeric($original) && $original != $rounded;
+}
 ?>
 <div class="table-responsive">
-    <h4>Appraisal Value</h4>
+    <h4 style="margin-top: 30px;">Appraisal Value</h4>
+   
     <table id="data-table-basic" class="table table-striped">
         <thead>
         <tr>
@@ -176,9 +198,30 @@ function date_formated($date){
         <tr>
             <td>{{ $no }}</td>
             <td>{{ $appraisal->period }}</td>
-            <td>{{ $appraisal->sup_value }}</td>
-            <td>{{ $appraisal->dir_value }}</td>
-            <td>{{ $appraisal->hrd_value }}</td>
+            <td>
+                <?php $sup_rounded = round_appraisal_value($appraisal->sup_value); ?>
+                @if(is_value_rounded($appraisal->sup_value, $sup_rounded))
+                    <span class="rounded-value" title="Original: {{ $appraisal->sup_value }}">{{ $sup_rounded }}</span>
+                @else
+                    {{ $sup_rounded }}
+                @endif
+            </td>
+            <td>
+                <?php $dir_rounded = round_appraisal_value($appraisal->dir_value); ?>
+                @if(is_value_rounded($appraisal->dir_value, $dir_rounded))
+                    <span class="rounded-value" title="Original: {{ $appraisal->dir_value }}">{{ $dir_rounded }}</span>
+                @else
+                    {{ $dir_rounded }}
+                @endif
+            </td>
+            <td>
+                <?php $hrd_rounded = round_appraisal_value($appraisal->hrd_value); ?>
+                @if(is_value_rounded($appraisal->hrd_value, $hrd_rounded))
+                    <span class="rounded-value" title="Original: {{ $appraisal->hrd_value }}">{{ $hrd_rounded }}</span>
+                @else
+                    {{ $hrd_rounded }}
+                @endif
+            </td>
         </tr>
         <?php $no++;?>
             @endforeach

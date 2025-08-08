@@ -1,4 +1,19 @@
 <script type="text/javascript">
+    function toYmd(value){
+        if(!value){ return ''; }
+        var s = String(value).trim();
+        var d = new Date(s);
+        if(!isNaN(d.getTime())){
+            var m = ('0'+(d.getMonth()+1)).slice(-2);
+            var day = ('0'+d.getDate()).slice(-2);
+            var ymd = d.getFullYear()+'-'+m+'-'+day;
+            if(ymd === '1900-01-01' || ymd === '0000-00-00' || ymd === '1970-01-01'){ return ''; }
+            return ymd;
+        }
+        var ymd2 = s.length >= 10 ? s.slice(0,10) : s;
+        if(ymd2 === '1900-01-01' || ymd2 === '0000-00-00' || ymd2 === '1970-01-01'){ return ''; }
+        return ymd2;
+    }
     $(document).ready(function() {
         $('#addEdu').hide();
         $('#addWork').hide();
@@ -11,15 +26,19 @@
         $('#trainDtlCancel').hide();
         $('#start_date').datetimepicker({
             format: 'Y-m-d',
+            timepicker: false
         });
         $('#end_date').datetimepicker({
             format: 'Y-m-d',
+            timepicker: false
         });
         $('#eexp_from_date').datetimepicker({
             format: 'Y-m-d',
+            timepicker: false
         });
         $('#eexp_to_date').datetimepicker({
             format: 'Y-m-d',
+            timepicker: false
         });
 
         // Add click handler for edit button
@@ -42,12 +61,10 @@
                     $('#major').val(data.major);
                     $('#year').val(data.year);
                     $('#score').val(data.score);
-                    $('#start_date').val(data.start_date);
-                    $('#end_date').val(data.end_date);
+                    $('#start_date').val(toYmd(data.start_date));
+                    $('#end_date').val(toYmd(data.end_date));
                     $('#edu_id').val(data.id);
-                    
-                    // Change form action to update
-                    $('#addEdu').attr('action', "{{ route('personal.updateEducation') }}");
+                    // Biarkan action tetap di setEducation; gunakan hidden id untuk update
                 }
             });
         });
@@ -80,6 +97,9 @@
             $('#editDtlWork').hide();
             $('#workDtlSave').show();
             $('#workDtlCancel').show();
+            // Reset form untuk mode tambah baru
+            $('#addWork')[0].reset();
+            $('#idWork').val('');
         });
         $('#workDtlCancel').click(function(){
             $('#addWork').hide();
@@ -119,10 +139,11 @@
             $('#addWork').show();
             $('#workDtlSave').show();
             $('#workDtlCancel').show();
+            $('#idWork').val($(this).data('id'));
             $('#eexp_employer').val($(this).data('employer'));
             $('#eexp_jobtit').val($(this).data('jobtitle'));
-            $('#eexp_from_date').val($(this).data('fromdate'));
-            $('#eexp_to_date').val($(this).data('todate'));
+            $('#eexp_from_date').val(toYmd($(this).data('fromdate')));
+            $('#eexp_to_date').val(toYmd($(this).data('todate')));
             $('#eexp_comments').val($(this).data('comments'));
         });
         
@@ -134,17 +155,19 @@
             $('#idTrain').val($(this).data('id'));
             $('#train_name').val($(this).data('name'));
             $('#license_no').val($(this).data('licenseno'));
-            $('#license_issued_date').val($(this).data('issueddate'));
-            $('#license_expiry_date').val($(this).data('expirydate'));
+            $('#license_issued_date').val(toYmd($(this).data('issueddate')));
+            $('#license_expiry_date').val(toYmd($(this).data('expirydate')));
             $('#addTrain').show();
             $('#trainDtlSave').show();
             $('#trainDtlCancel').show();
         });
         $('#license_issued_date').datetimepicker({
             format: 'Y-m-d',
+            timepicker: false
         });
         $('#license_expiry_date').datetimepicker({
             format: 'Y-m-d',
+            timepicker: false
         });
     });
     function deleteConfirmation(e, message) {
@@ -156,8 +179,12 @@
 <div class="table-responsive">
     <?php
     function date_formated($date){
-        $new_date = date('d-m-Y', strtotime(substr($date, 0, 11)));
-        return $new_date;
+        if(!$date){ return '-'; }
+        $clean = substr((string)$date, 0, 10);
+        if(in_array($clean, ['1900-01-01','0000-00-00','1970-01-01'])){ return '-'; }
+        $ts = strtotime($clean);
+        if($ts === false || $ts <= 0){ return '-'; }
+        return date('d-m-Y', $ts);
     }
     ?>
     <div>
@@ -252,6 +279,7 @@
 <fieldset>
     <form id="addWork" action="{{ route('personal.setWork') }}" method="post">
         <input type="hidden" name="_token" value="{{ csrf_token() }}" />
+        <input type="hidden" name="idWork" id="idWork" />
         <div class="form-group">
             <label for="eexp_employer">Company <span style="color: red;">*</span></label>
             <input class="form-control" type="text" name="eexp_employer" id="eexp_employer" />

@@ -1548,6 +1548,15 @@ class EmployeeController extends Controller {
         return view('partials.employee.manage.reward', compact('eRewards', 'ePromots', 'ePunish', 'punishment_type', 'eAppraisals'));
     }
 
+    /**
+     * Helper method to round appraisal values
+     * @param mixed $value
+     * @return mixed
+     */
+    private function roundAppraisalValue($value) {
+        return is_numeric($value) ? round($value, 0) : $value;
+    }
+
 
 
     public function getRewardDtl(Request $request) {

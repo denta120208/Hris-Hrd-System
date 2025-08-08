@@ -73,6 +73,57 @@
     margin-top: 5px;
     display: block;
 }
+
+/* Improved file selection styling */
+.file-selected-info {
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
+    border: 1px solid #28a745;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(40, 167, 69, 0.1);
+}
+
+.file-selected-info .file-info {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.file-selected-info .file-icon {
+    color: #28a745;
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.file-selected-info .file-name {
+    color: #155724;
+    font-weight: 500;
+    font-size: 13px;
+    word-break: break-all;
+    margin-right: 10px;
+}
+
+.file-selected-info .file-status-badge {
+    background-color: #28a745;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.file-upload-container {
+    position: relative;
+}
+
+.file-upload-container.has-selection .file-upload-wrapper {
+    margin-bottom: 0;
+}
 </style>
 
 <script>
@@ -101,33 +152,40 @@ $(document).ready(function(){
     $('input[type="file"]').on('change', function() {
         var fileInput = $(this);
         var fileName = fileInput.val().split('\\').pop();
+        var wrapper = fileInput.closest('.file-upload-wrapper');
+        var container = fileInput.closest('.file-upload-container');
         
         if (fileName) {
             fileInput.addClass('file-input-selected');
             fileInput.removeClass('has-existing-file');
             
-            // Remove existing indicator
+            // Remove existing indicators and messages
             fileInput.siblings('.file-selected-indicator').remove();
+            container.find('.file-selected-info').remove();
+            wrapper.find('.file-selected-msg').remove();
             
-            // Add selected indicator
-            fileInput.after('<span class="file-selected-indicator"><i class="fa fa-check-circle"></i></span>');
+            // Add container class for styling
+            container.addClass('has-selection');
             
-            // Update or add file selected message
-            var wrapper = fileInput.closest('.file-upload-wrapper');
-            var existingMsg = wrapper.find('.file-selected-msg');
+            // Create new styled file info display
+            var fileInfo = $('<div class="file-selected-info">' +
+                '<div class="file-info">' +
+                    '<i class="fa fa-file file-icon"></i>' +
+                    '<span class="file-name">' + fileName + '</span>' +
+                '</div>' +
+                '<span class="file-status-badge">File Dipilih</span>' +
+            '</div>');
             
-            if (existingMsg.length) {
-                existingMsg.text('File dipilih: ' + fileName);
-            } else {
-                wrapper.append('<small class="text-success file-selected-msg" style="display: block; margin-top: 5px;"><i class="fa fa-file"></i> File dipilih: ' + fileName + '</small>');
-            }
+            wrapper.after(fileInfo);
+            
         } else {
             fileInput.removeClass('file-input-selected');
             fileInput.siblings('.file-selected-indicator').remove();
-            fileInput.closest('.file-upload-wrapper').find('.file-selected-msg').remove();
+            container.find('.file-selected-info').remove();
+            wrapper.find('.file-selected-msg').remove();
+            container.removeClass('has-selection');
             
             // Restore existing file state if there was one
-            var wrapper = fileInput.closest('.file-upload-wrapper');
             var hasExistingFile = wrapper.find('a[href*="employee.file"]').length > 0;
             if (hasExistingFile) {
                 fileInput.addClass('has-existing-file');
@@ -170,6 +228,8 @@ $(document).ready(function(){
         $('input[type="file"]').val('').removeClass('file-input-selected');
         $('.file-selected-indicator').remove();
         $('.file-selected-msg').remove();
+        $('.file-selected-info').remove();
+        $('.file-upload-container').removeClass('has-selection');
         
         // Restore existing file state
         $('input[type="file"]').each(function() {
@@ -310,23 +370,29 @@ function date_formated($date){
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="form-group">
             <label for="bank_account_number">No Rekening</label>
-            <input class="form-control" type="text" name="bank_account_number" id="bank_account_number" value="{{ $emp->bank_account_number }}" readonly="readonly" />
+            <input class="form-control" type="text" name="bank_account_number" id="bank_account_number" 
+                   value="{{ $emp->bank_account_number && $emp->bank_account_number != '0' ? $emp->bank_account_number : '' }}" 
+                   placeholder="Masukkan nomor rekening" readonly="readonly" />
         </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="form-group">
-            <label for="bank_account_name"> Bank Account Name</label>
-            <input class="form-control" type="text" name="bank_account_name" id="bank_account_name" value="{{ $emp->bank_account_name }}" readonly="readonly" />
+            <label for="bank_account_name">Bank Account Name</label>
+            <input class="form-control" type="text" name="bank_account_name" id="bank_account_name" 
+                   value="{{ $emp->bank_account_name && $emp->bank_account_name != '0' ? $emp->bank_account_name : '' }}" 
+                   placeholder="Masukkan nama pemilik rekening" readonly="readonly" />
         </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <div class="form-group">
             <label for="back_account_loc">Cabang Bank</label>
-            <input class="form-control" type="text" name="back_account_loc" id="back_account_loc" value="{{ $emp->back_account_loc }}" readonly="readonly" />
+            <input class="form-control" type="text" name="back_account_loc" id="back_account_loc" 
+                   value="{{ $emp->back_account_loc && $emp->back_account_loc != '0' ? $emp->back_account_loc : '' }}" 
+                   placeholder="Masukkan nama cabang bank" readonly="readonly" />
         </div>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="form-group">
+        <div class="form-group file-upload-container">
             <label for="doc_ktp">Upload KTP</label>
             <div class="file-upload-wrapper" style="display: flex; align-items: center; gap: 10px;">
                 <input class="form-control" type="file" name="doc_ktp" id="doc_ktp" accept="image/*,application/pdf" style="flex: 1;" />
@@ -339,7 +405,7 @@ function date_formated($date){
         </div>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="form-group">
+        <div class="form-group file-upload-container">
             <label for="doc_npwp">Upload NPWP</label>
             <div class="file-upload-wrapper" style="display: flex; align-items: center; gap: 10px;">
                 <input class="form-control" type="file" name="doc_npwp" id="doc_npwp" accept="image/*,application/pdf" style="flex: 1;" />
@@ -352,7 +418,7 @@ function date_formated($date){
         </div>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="form-group">
+        <div class="form-group file-upload-container">
             <label for="doc_ijasah">Upload Ijazah</label>
             <div class="file-upload-wrapper" style="display: flex; align-items: center; gap: 10px;">
                 <input class="form-control" type="file" name="doc_ijasah" id="doc_ijasah" accept="image/*,application/pdf" style="flex: 1;" />
@@ -365,7 +431,7 @@ function date_formated($date){
         </div>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="form-group">
+        <div class="form-group file-upload-container">
             <label for="doc_kartu_keluarga">Upload Kartu Keluarga</label>
             <div class="file-upload-wrapper" style="display: flex; align-items: center; gap: 10px;">
                 <input class="form-control" type="file" name="doc_kartu_keluarga" id="doc_kartu_keluarga" accept="image/*,application/pdf" style="flex: 1;" />

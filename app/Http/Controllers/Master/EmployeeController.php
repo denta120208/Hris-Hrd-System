@@ -524,16 +524,22 @@ class EmployeeController extends Controller{
             $request->year = 0;
         }
         
-        $this->edu->create([
-            'emp_number' => $emp->emp_number,
-            'education_id' => $request->education_id,
-            'institute' => $request->institute,
-            'major' => $request->major,
-            'year' => $request->year,
-            'score' => $request->score,
-            'start_date' => $this->date_convert($request->start_date),
-            'end_date' => $this->date_convert($request->end_date)
-        ]);
+        // Edit jika ada ID, tambah jika tidak (selaras dengan Training)
+        $this->edu->updateOrCreate(
+            [
+                'id' => $request->id,
+                'emp_number' => $emp->emp_number,
+            ],
+            [
+                'education_id' => $request->education_id,
+                'institute' => $request->institute,
+                'major' => $request->major,
+                'year' => $request->year,
+                'score' => $request->score,
+                'start_date' => $this->date_convert($request->start_date),
+                'end_date' => $this->date_convert($request->end_date)
+            ]
+        );
         
         \DB::table('log_activity')->insert([
             'action' => 'update data employee',
@@ -572,14 +578,20 @@ class EmployeeController extends Controller{
         
         $emp = $this->emp->where('employee_id', Session::get('username'))->first();
         
-        $this->qlt->create([
-            'emp_number' => $emp->emp_number,
-            'eexp_employer' => $request->eexp_employer,
-            'eexp_jobtit' => $request->eexp_jobtit,
-            'eexp_from_date' => $request->eexp_from_date,
-            'eexp_to_date' => $request->eexp_to_date,
-            'eexp_comments' => $request->eexp_comments
-        ]);
+        // Edit jika ada ID, tambah jika tidak (selaras dengan Training)
+        $this->qlt->updateOrCreate(
+            [
+                'id' => $request->idWork,
+                'emp_number' => $emp->emp_number,
+            ],
+            [
+                'eexp_employer' => $request->eexp_employer,
+                'eexp_jobtit' => $request->eexp_jobtit,
+                'eexp_from_date' => $request->eexp_from_date,
+                'eexp_to_date' => $request->eexp_to_date,
+                'eexp_comments' => $request->eexp_comments
+            ]
+        );
         
         \DB::table('log_activity')->insert([
             'action' => 'update data employee',
@@ -733,7 +745,8 @@ class EmployeeController extends Controller{
         return $response;
     }
 
-    public function getEducation($id) {
+    public function getEducation(Request $request) {
+        $id = $request->id;
         $edu = $this->edu->where('id', $id)->where('is_delete', 0)->first();
         return response()->json($edu);
     }
