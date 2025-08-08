@@ -9,6 +9,7 @@
         $('#closePunishmentModal').on('click', function () {
             $('#edtModalPh').modal('hide');
         });
+
         $('#rewardDtlSave').hide();
         $('#rewardDtlCancel').hide();
         $('#promotDtlSave').hide();
@@ -21,6 +22,7 @@
         $('#addPr').hide();
         $('.editPunish').hide();
         $('#addPunish').hide();
+
         $('#rewardDtl').click(function(){
             $('#rewardDtl').hide();
             $('#rewardDtlSave').show();
@@ -68,6 +70,8 @@
             $('.editPunish').hide();
             $('#addPunish').hide();
         });
+
+
 
         $('#emergencyDtlSave').click(function (){
             $('form#emergencyForm').submit();
@@ -139,6 +143,7 @@
                 $('#punish_reason').val(null);
             }
         });
+
         $('#promotion_date').datetimepicker({
             format: 'Y-m-d',
         });
@@ -152,6 +157,38 @@ function date_formated($date){
     return $new_date;
 }
 ?>
+<div class="table-responsive">
+    <h4>Appraisal Value</h4>
+    <table id="data-table-basic" class="table table-striped">
+        <thead>
+        <tr>
+            <th>No</th>
+            <th>Period</th>
+            <th>Supervisor Value</th>
+            <th>Director Value</th>
+            <th>HRD Value</th>
+        </tr>
+        </thead>
+        <tbody>
+        @if(!empty($eAppraisals))
+            <?php $no = 1;?>
+            @foreach($eAppraisals as $appraisal)
+        <tr>
+            <td>{{ $no }}</td>
+            <td>{{ $appraisal->period }}</td>
+            <td>{{ $appraisal->sup_value }}</td>
+            <td>{{ $appraisal->dir_value }}</td>
+            <td>{{ $appraisal->hrd_value }}</td>
+        </tr>
+        <?php $no++;?>
+            @endforeach
+        @else
+            <tr><td colspan="5">No Data</td></tr>
+        @endif
+        </tbody>
+    </table>
+</div>
+<br>
 <div class="table-responsive">
     <h4>Reward</h4>
     <a href="#edtModalRw" data-toggle="modal" class="open-edtModalRw" data-id="0"><i class="fa fa-2x fa-plus-square-o" title="Add" id="addRw"></i></a>

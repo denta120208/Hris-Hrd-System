@@ -234,6 +234,9 @@ class EmployeeSubController extends Controller{
         $eRewards = $this->eReward->where('emp_number', $id)->orderBy('id')->get();
         $ePromots = $this->ePromot->where('emp_number', $id)->where('promo_pnum', Session::get('pnum'))
         ->where('promo_ptype', Session::get('ptype'))->orderBy('id')->get();
+        
+
+        
         return view('partials.employee.personal.reward', compact('emp','eRewards','ePromots'));
     }
     public function setTrain(Request $request){

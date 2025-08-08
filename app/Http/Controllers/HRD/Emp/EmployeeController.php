@@ -1527,6 +1527,12 @@ class EmployeeController extends Controller {
                             ORDER BY YEAR(hrd_approved_at) DESC");
 
         $punishment_type = \DB::table("punishment_type")->get();
+        
+        // Get appraisal data for the employee
+        $eAppraisals = \DB::table('emp_appraisal_value')
+                        ->where('emp_number', $id)
+                        ->orderBy('period', 'DESC')
+                        ->get();
 
         \DB::table('log_activity')->insert([
             'action' => 'HRD View Reward Punish Employee',
@@ -1539,8 +1545,10 @@ class EmployeeController extends Controller {
             'table_activity' => 'emp_rewards, emp_promotions'
         ]);
 
-        return view('partials.employee.manage.reward', compact('eRewards', 'ePromots', 'ePunish', 'punishment_type'));
+        return view('partials.employee.manage.reward', compact('eRewards', 'ePromots', 'ePunish', 'punishment_type', 'eAppraisals'));
     }
+
+
 
     public function getRewardDtl(Request $request) {
         $now = date("Y-m-d H:i:s");

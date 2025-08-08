@@ -623,6 +623,8 @@ class EmployeeController extends Controller{
         ->where('promo_ptype', Session::get('ptype'))->orderBy('id')->get();
         $pReqs = $this->pReq->where('sub_emp_number', $id)->get();
         
+
+        
         \DB::table('log_activity')->insert([
             'action' => 'Get Reward',
             'module' => 'Master',
@@ -726,7 +728,7 @@ class EmployeeController extends Controller{
         
         if($request->year == null){
             $request->year = 0;
-        }
+        }    
         
         $this->edu->where('id', $request->id)->update([
             'education_id' => $request->education_id,

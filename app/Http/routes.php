@@ -198,6 +198,9 @@ Route::get('/printSTSP/{id}', ['as' => 'printSTSP', 'uses' => 'Punhisments\STSPC
 Route::get('/hrd/rKomposisi', ['as' => 'hrd.rKomposisi', 'uses' => 'HRD\Reports\KomposisiController@statusEmp']);
 Route::get('/hrd/rJoinTerminate', ['as' => 'hrd.rJoinTerminate', 'uses' => 'HRD\Reports\KomposisiController@joinTerminate']);
 Route::get('/hrd/addJoinTerminateMenu', ['as' => 'hrd.addJoinTerminateMenu', 'uses' => 'HRD\Reports\KomposisiController@addJoinTerminateMenu']);
+Route::get('/hrd/appraisal_emp', ['as' => 'hrd.appraisal_emp', 'uses' => 'HRD\Reports\AppraisalController@index']);
+
+Route::post('/hrd/view_appraisal_emp', ['as' => 'hrd.view_appraisal_emp', 'uses' => 'HRD\Reports\AppraisalController@viewDataAppraisal']);
 
 // Download File
 Route::any('/induction', ['as' => 'induction', 'uses' => 'HRD\Administrations\InductionController@index']);
@@ -266,6 +269,7 @@ Route::post('/personalEmp/setPromotDtl/', ['as' => 'personalEmp.setPromotDtl', '
 
 Route::get('/personalEmp/getPunishDtl/', ['as' => 'personalEmp.getPunishDtl', 'uses' => 'HRD\Emp\EmployeeController@getPunishDtl']);
 Route::post('/personalEmp/setPunishDtl/', ['as' => 'personalEmp.setPunishDtl', 'uses' => 'HRD\Emp\EmployeeController@setPunishDtl']);
+
 
 Route::get('/personalEmp/getSupReportTo/', ['as' => 'personalEmp.getSupReportTo', 'uses' => 'HRD\Emp\EmployeeController@getSupReportTo']);
 Route::get('/personalEmp/getReportToDtl/', ['as' => 'personalEmp.getReportToDtl', 'uses' => 'HRD\Emp\EmployeeController@getReportToDtl']);
@@ -565,4 +569,4 @@ Route::post('/hrd/rekap_absendw', ['as' => 'hrd.rekap_absendw', 'uses' => 'HRD\R
 // Data Karyawan Routes
 Route::get('/hrd/data_karyawan', ['as' => 'hrd.data_karyawan', 'uses' => 'HRD\Reports\DataKaryawanController@index']);
 Route::post('/hrd/data_karyawan/view', ['as' => 'hrd.view_data_karyawan', 'uses' => 'HRD\Reports\DataKaryawanController@viewDataKaryawan']);
-Route::get('/employee/file/{type}/{emp_number}', ['as' => 'employee.file', 'uses' => 'HRD\Emp\EmployeeController@getEmployeeFile']);
+Route::get('/employee/file/{type}/{emp_number}', ['as' => 'employee.file', 'uses' => 'HRD\Emp\EmployeeController@getEmployeeFile']);;
